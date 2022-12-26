@@ -1,5 +1,7 @@
+import subprocess
 class Engine:
     def __init__(self):
+        self.algoDirName = "temporaryAlgorithmsFolder"
         raise Exception("Not implemented.")
 
     def run_algorithm(self, algorithm):
