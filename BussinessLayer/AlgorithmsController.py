@@ -3,8 +3,9 @@ from BussinessLayer.Engine import Engine
 
 class AlgorithmsController:
     def __init__(self):
-        self.algorithms_lst = list()
-        self.engine = Engine()
+        self.algorithms_lst: list = list()
+        self.running_engines: list[tuple[str, Engine]] = list()
+
         raise Exception("Not implemented.")
 
     def get_algorithm(self, name):
